@@ -1,0 +1,39 @@
+section .sec-space {
+    width: 100vw;
+  }
+  
+  section .sec-space .container {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  
+  .swiper {
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    width: inherit;
+  }
+  
+  .swiper-slide img {
+    width: 100vw;
+    height: 98vh;
+    object-fit: cover;
+  }
+  
+  .swiper-button-next {
+    width: 35px;
+    height: 80px;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 0px 10px 10px rgb(44, 44, 44, 5);
+    border: 0.5px solid rgba(255, 255, 255, 0.722);
+  }
+  
+  .swiper-button-prev {
+    width: 35px;
+    height: 80px;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 0px 10px 10px rgb(44, 44, 44, 5);
+    border: 0.5px solid rgba(255, 255, 255, 0.722);
+  }
+  

@@ -1,0 +1,127 @@
+footer .footer-container .container-1 {
+  width: 95%;
+}
+
+footer .footer-container .container-2 {
+  display: none;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 95%;
+}
+
+/* container 4 */
+
+footer .footer-container .container-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 95%;
+}
+
+footer .footer-container .container-4 .column1 p {
+  color: #424245;
+  font-size: 13px;
+  font-weight: lighter;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+footer .footer-container .container-4 .column2 {
+  display: flex;
+}
+
+footer .footer-container .container-4 .column2 hr {
+  display: flex;
+}
+
+footer .footer-container .container-4 .column2 a {
+  color: #424245;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+  padding-right: 6px;
+}
+
+footer .footer-container .container-4 .column2 a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-container .container-4 .column3 p {
+  color: #424245;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+  opacity: 0.7;
+  font-weight: 500;
+  padding-top: 8px;
+}
+
+/* hide container 2 mobile */
+
+footer .footer-container .container-2-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+
+.accordion {
+  width: 100%;
+}
+
+.accordion .contentBx {
+  position: relative;
+  margin: 10px 20px;
+}
+
+.accordion .contentBx .label {
+  color: #424245;
+  font-size: 14px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.accordion .contentBx .label::before {
+  content: "+";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.accordion .contentBx.active .label::before {
+  content: "-";
+}
+
+.accordion .contentBx .content {
+  height: 0;
+  transition: 500ms;
+  display: none;
+  transition: 500ms;
+  padding-top: 5px;
+}
+
+.accordion .contentBx .content p {
+  margin: 0;
+  color: #424245;
+  font-size: 16px;
+  font-weight: lighter;
+  text-decoration: none;
+  opacity: 0.7;
+  padding-top: 10px;
+}
+
+.accordion .contentBx .content p:hover {
+  text-decoration: underline;
+}
+
+/* class active for event open accordion */
+
+.accordion .contentBx.active .content {
+  height: auto;
+  display: block;
+}

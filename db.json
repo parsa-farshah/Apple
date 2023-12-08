@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "./images/content/15-pro.jpg",
+      "date": "new",
+      "name": "iPhone 15 Pro",
+      "information": "Titanium",
+      "price": "From $999 or $41.25/mo.for 24mo."
+    },
+    {
+      "id": 2,
+      "image": "./images/content/i Phone 15 newphoria.jpg",
+      "date": "new",
+      "name": "iPhone 15",
+      "information": "Newphoria",
+      "price": "From $999 or $41.25/mo.for 24mo."
+    },
+    {
+      "id": 3,
+      "image": "./images/content/watch series 9.jpg",
+      "date": "new",
+      "name": "Watch",
+      "information": "Smarter.Brighter.Mightier",
+      "price": "From $399"
+    }
+  ]
+}

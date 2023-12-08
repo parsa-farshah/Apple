@@ -1,0 +1,19 @@
+*,
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sf pro text regular, sf pro display semibold,
+    sf pro text semibold, sf pro text bold, sf pro display bold,
+    sf pro icons regular, sf pro icons bold;
+
+  font-weight: 300;
+
+  overflow-y: scroll;
+
+  overflow-x: hidden;
+}

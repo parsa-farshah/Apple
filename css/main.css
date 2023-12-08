@@ -1,0 +1,18 @@
+@import "./navbar/navbar-pluse-1200.css";
+@import "./navbar/navbar-minus-959.css";
+@import "./navbar/navbar-Lg.css";
+@import "./setting.css";
+/* footer */
+@import "./footer/footer-minus-1200.css";
+@import "./footer/footer-pluse-1200.css";
+
+@import "./slider/slider.css";
+
+/* for responsive */
+
+@import "xxl.css" screen and (min-width: 1400px);
+@import "xl.css" screen and (min-width: 1200px) and (max-width: 1400px);
+@import "lg.css" screen and (min-width: 959px) and (max-width: 1200px);
+@import "md.css" screen and (min-width: 768px) and (max-width: 959px);
+@import "sm.css" screen and (min-width: 576px) and (max-width: 768px);
+@import "xsm.css" screen and (max-width: 576px);
