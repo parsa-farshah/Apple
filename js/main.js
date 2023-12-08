@@ -212,6 +212,8 @@ for (i = 0; i < accordionBtn.length; i++) {
   });
 }
 
+// End footer in size minus 959
+
 // Start API
 
 fetch("https://parsa-farshah.github.io/Apple-json/db.json")
