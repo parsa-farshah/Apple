@@ -214,70 +214,6 @@ for (i = 0; i < accordionBtn.length; i++) {
 
 // Start API
 
-/*  */
-
-// const fetchProducts = async () => {
-//   try {
-//     let res = await axios.get("http://localhost:3004/products");
-//     let products = res.data.map((elem) => {
-//       return `
-//         <div class="content-container-1">
-//         <img src="${elem.image}" alt="">
-//         <div class="information">
-//           <p class="new">${elem.date}</p>
-//           <p class="phone-model">${elem.name}</p>
-//           <p class="material">${elem.information}</p>
-//           <p class="price">${elem.price}</p>
-//           <p class="buy">Buy</p>
-//           <div class="learn-more">
-//             <a href="#">Learn more</a>
-//             <img src="./images/content/arrow right.svg" alt="">
-//           </div>
-//         </div>
-//       </div>
-
-//       <div class="content-container-2">
-//           <img src="${elem.image}" alt="">
-//           <div class="information-2">
-//             <p class="new-2">${elem.date}</p>
-//             <p class="phone-model-2">${elem.name}</p>
-//             <p class="material-2">${elem.information}</p>
-//             <p class="price-2">${elem.price}</p>
-//             <p class="buy-2">Buy</p>
-//             <div class="learn-more-2">
-//               <a href="#">Learn more</a>
-//               <img src="./images/content/arrow right.svg" alt="">
-//             </div>
-//           </div>
-//         </div>
-
-//         <div class="content-container-3">
-//         <img src="${elem.image}" alt="">
-//         <div class="information-3">
-//           <div class="watch">
-//             <img src="./images/content/apple-logo-image3-watch.svg" alt="">
-//             <p>${elem.name}</p>
-//           </div>
-//           <p class="new-3">SERIES 9</p>
-//           <p class="material-3">${elem.information}</p>
-//           <p class="price-3">${elem.price}</p>
-//           <p class="buy-3">Buy</p>
-//           <div class="learn-more-3">
-//             <a href="#">Learn more</a>
-//             <img src="./images/content/arrow right.svg" alt="">
-//           </div>
-//         </div>
-//       </div>
-//         `;
-//     });
-//     document.querySelector(".row-images").innerHTML = products.join("");
-//   } catch (error) {
-//     console.log(error.massage);
-//   }
-// };
-
-// fetchProducts();
-
 fetch("https://parsa-farshah.github.io/Apple-json/db.json")
   .then((res) => {
     return res.json();
@@ -310,3 +246,5 @@ fetch("https://parsa-farshah.github.io/Apple-json/db.json")
     });
   })
   .catch((error) => console.log(error));
+
+// End API
