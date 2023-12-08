@@ -5,6 +5,7 @@
 /* end display none beacuse just show in mobile nav */
 
 /* navbar and content */
+
 div.nav-container {
   width: 100vw;
   height: 53px !important;
@@ -14,6 +15,7 @@ div.nav-container {
   left: 0;
   z-index: 900;
   transition: 500ms;
+  overflow-x: hidden;
 }
 
 .nav-container nav .mobile-nav {
@@ -247,6 +249,116 @@ p {
   color: #d4d4d4;
   font-weight: bold;
 }
+
+/* start API css */
+.content {
+  padding-top: 40px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container-1 {
+  overflow: hidden;
+  position: relative;
+}
+
+.row-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container-1 img {
+  width: 100%;
+  height: 780px;
+  object-fit: cover;
+  position: relative;
+}
+
+.content .content-container-1 .information {
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 12px;
+}
+
+.information .new {
+  font-size: 12px;
+  color: rgb(255, 98, 0);
+  padding-bottom: 10px;
+}
+
+.information .phone-model {
+  font-size: 25px;
+  color: rgb(219, 219, 219);
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.information .material {
+  padding-top: 25px;
+  font-size: 55px;
+  color: #d4d4d4;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.information .price {
+  padding-top: 25px;
+  font-size: 23px;
+  padding-bottom: 20px;
+  color: #747474;
+  padding-bottom: 8px;
+}
+
+.information .buy {
+  display: flex;
+  justify-content: center;
+  width: 65px;
+  align-items: center;
+  height: 30px;
+  background-color: #006eff;
+  text-align: center;
+  border-radius: 60px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.information .learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13px;
+}
+
+.learn-more a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #006eff;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.learn-more a:hover {
+  text-decoration: underline;
+}
+
+.learn-more img {
+  width: 20px;
+  height: 15px;
+}
+
+/* end API css */
 
 /* container4 */
 

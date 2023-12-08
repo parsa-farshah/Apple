@@ -713,11 +713,16 @@ div.nav-container {
   padding-left: 0;
 }
 
-.entertaiment-container > .explore-entertaiment .entertaiment-1 li a {
+.entertaiment-container
+  > .explore-entertaiment
+  .entertaiment-1
+  li
+  a
+  .entertaiment-menu {
   color: #fff;
-  text-decoration: none;
   font-size: 25px;
   line-height: 40px;
+  text-decoration: none;
 }
 
 .entertaiment-container > .explore-entertaiment .entertaiment-2 p {
