@@ -6,7 +6,7 @@
 
 /* navbar and content */
 div.nav-container {
-  width: 100%;
+  width: 100vw;
   height: 53px !important;
   background-color: hsl(240deg 1.45% 27.06%);
   position: fixed;
