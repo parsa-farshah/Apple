@@ -1,0 +1,63 @@
+@font-face {
+    font-family: sf pro text regular;
+    src: url("./fonts/sf-pro-text_regular/SFProText-Regular.eot");
+    src: url("./fonts/sf-pro-text_regular/SFProText-Regular.svg");
+    src: url("./fonts/sf-pro-text_regular/SFProText-Regular.ttf");
+    src: url("./fonts/sf-pro-text_regular/SFProText-Regular.woff");
+    src: url("./fonts/sf-pro-text_regular/SFProText-Regular.woff2");
+  }
+  
+  @font-face {
+    font-family: sf pro display semibold;
+    src: url("./fonts/sf-pro-display_semibold/SFProDisplay-Semibold.eot");
+    src: url("./fonts/sf-pro-display_semibold/SFProDisplay-Semibold.svg");
+    src: url("./fonts/sf-pro-display_semibold/SFProDisplay-Semibold.ttf");
+    src: url("./fonts/sf-pro-display_semibold/SFProDisplay-Semibold.woff");
+    src: url("./fonts/sf-pro-display_semibold/SFProDisplay-Semibold.woff2");
+  }
+  
+  @font-face {
+    font-family: sf pro text semibold;
+    src: url("./fonts/sf-pro-text_semibold/SFProText-Semibold.eot");
+    src: url("./fonts/sf-pro-text_semibold/SFProText-Semibold.svg");
+    src: url("./fonts/sf-pro-text_semibold/SFProText-Semibold.ttf");
+    src: url("./fonts/sf-pro-text_semibold/SFProText-Semibold.woff");
+    src: url("./fonts/sf-pro-text_semibold/SFProText-Semibold.woff2");
+  }
+  
+  @font-face {
+    font-family: sf pro text bold;
+    src: url("./fonts/sf-pro-text_bold/SFProText-Bold.eot");
+    src: url("./fonts/sf-pro-text_bold/SFProText-Bold.svg");
+    src: url("./fonts/sf-pro-text_bold/SFProText-Bold.ttf");
+    src: url("./fonts/sf-pro-text_bold/SFProText-Bold.woff");
+    src: url("./fonts/sf-pro-text_bold/SFProText-Bold.woff2");
+  }
+  
+  @font-face {
+    font-family: sf pro display bold;
+    src: url("./fonts/sf-pro-display_bold/SFProDisplay-Bold.eot");
+    src: url("./fonts/sf-pro-display_bold/SFProDisplay-Bold.svg");
+    src: url("./fonts/sf-pro-display_bold/SFProDisplay-Bold.ttf");
+    src: url("./fonts/sf-pro-display_bold/SFProDisplay-Bold.woff");
+    src: url("./fonts/sf-pro-display_bold/SFProDisplay-Bold.woff2");
+  }
+  
+  @font-face {
+    font-family: sf pro icons regular;
+    src: url("./fonts/sf-pro-icons_regular/SFProIcons-Regular.eot");
+    src: url("./fonts/sf-pro-icons_regular/SFProIcons-Regular.svg");
+    src: url("./fonts/sf-pro-icons_regular/SFProIcons-Regular.ttf");
+    src: url("./fonts/sf-pro-icons_regular/SFProIcons-Regular.woff");
+    src: url("./fonts/sf-pro-icons_regular/SFProIcons-Regular.woff2");
+  }
+  
+  @font-face {
+    font-family: sf pro icons bold;
+    src: url("./fonts/sf-pro-icons_bold/SFProIcons-Bold.eot");
+    src: url("./fonts/sf-pro-icons_bold/SFProIcons-Bold.svg");
+    src: url("./fonts/sf-pro-icons_bold/SFProIcons-Bold.ttf");
+    src: url("./fonts/sf-pro-icons_bold/SFProIcons-Bold.woff");
+    src: url("./fonts/sf-pro-icons_bold/SFProIcons-Bold.woff2");
+  }
+  
