@@ -158,7 +158,7 @@ p {
 .store-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 70px;
+  top: 80px;
   right: 25px;
   opacity: 0.6;
 }
@@ -166,7 +166,7 @@ p {
 .mac-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 120px;
+  top: 130px;
   right: 25px;
   opacity: 0.6;
 }
@@ -174,7 +174,7 @@ p {
 .iPad-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 175px;
+  top: 185px;
   right: 25px;
   opacity: 0.6;
 }
@@ -186,7 +186,7 @@ p {
 .iPhone-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 225px;
+  top: 235px;
   right: 25px;
   opacity: 0.6;
 }
@@ -198,7 +198,7 @@ p {
 .watch-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 275px;
+  top: 285px;
   right: 25px;
   opacity: 0.6;
 }
@@ -210,7 +210,7 @@ p {
 .vision-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 325px;
+  top: 335px;
   right: 25px;
   opacity: 0.6;
 }
@@ -222,7 +222,7 @@ p {
 .AirPods-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 375px;
+  top: 385px;
   right: 25px;
   opacity: 0.6;
 }
@@ -234,7 +234,7 @@ p {
 .tvhome-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 425px;
+  top: 435px;
   right: 25px;
   opacity: 0.6;
 }
@@ -407,7 +407,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 5px;
+  line-height: 20px;
 }
 
 .content4-right img {
@@ -417,14 +417,14 @@ p {
 }
 
 .content4-right-information-1 .material-3 {
-  padding-top: 20px;
+  padding-top: 30px;
   font-size: 37px;
   color: #ffffff;
   font-weight: bold;
 }
 
 .content4-right-information-1 .price-3 {
-  padding-top: 25px;
+  padding-top: 35px;
   font-size: 20px;
   padding-bottom: 20px;
   color: #787878;
@@ -507,11 +507,11 @@ p {
   font-size: 37px;
   color: #000000;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 25px;
 }
 
 .content5-left-information-1 .price-3 {
-  padding-top: 20px;
+  padding-top: 25px;
   font-size: 25px;
   padding-bottom: 10px;
   color: #212121;
@@ -530,7 +530,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 10px;
+  line-height: 20px;
 }
 
 .content5-right img {
@@ -540,21 +540,21 @@ p {
 }
 
 .content5-right-information-1 .material-3 {
-  padding-top: 20px;
+  padding-top: 0px;
   font-size: 35px;
   color: #1b1b1b;
   font-weight: bold;
 }
 
 .content5-right-information-1 .price-3 {
-  padding-top: 25px;
+  padding-top: 30px;
   font-size: 20px;
   padding-bottom: 20px;
   color: #151515;
 }
 
 .links-buy-learnmore {
-  padding-top: 20px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
