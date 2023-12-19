@@ -1,6 +1,6 @@
 /* display none beacuse just show in mobile nav */
 
-.nav-container nav .mobile-nav {
+nav .mobile-nav {
   display: none;
 }
 
@@ -76,13 +76,13 @@ div.nav-container {
 /* start search submneu */
 /* search container */
 .search-container.hide {
-  display: none;
+  display: block;
 }
 
 .search-container {
-  width: 73%;
+  width: 73vh;
   margin: 0 auto;
-  position: relative;
+  position: absolute;
   z-index: 800;
   transition: 600ms;
   display: block;
@@ -298,7 +298,8 @@ div.nav-container {
 .support-container {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  position: fixed !important;
+  width: 45%;
   height: 55vh;
   margin: 0 0 0 195px;
   z-index: 800;
@@ -1694,6 +1695,7 @@ div.nav-container {
   padding-top: 40px;
   width: 100vw;
   display: flex;
+  z-index: 200;
   flex-direction: column;
   justify-content: center;
   align-items: center;

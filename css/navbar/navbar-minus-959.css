@@ -77,7 +77,6 @@ div.nav-container {
 /* menu humburger open background */
 
 .humburger-menu-bg {
-  display: none;
   height: 0;
 }
 
@@ -87,7 +86,7 @@ div.nav-container {
   width: 100%;
   height: calc(100vh - 20px) !important;
   z-index: 600;
-  position: relative;
+  position: fixed !important;
   top: 0;
   left: 0;
   transition: 1200ms;
@@ -99,15 +98,15 @@ div.nav-container {
   width: 100%;
   height: calc(100vh - 20px);
   z-index: 700;
-  position: absolute;
+  position: fixed !important;
   top: 0;
   left: 0;
-  overflow: auto;
+  overflow: hidden;
   transition: 400ms;
 }
 
 .humburger-container {
-  display: none;
+  display: flex;
   height: 0;
 }
 
@@ -126,6 +125,7 @@ p {
   display: flex;
   justify-content: flex-end;
   padding-bottom: 30px;
+  padding-right: 5px;
 }
 
 .links-open-menu-mobile {
@@ -158,7 +158,7 @@ p {
 .store-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 75px;
+  top: 120px;
   right: 10px;
   opacity: 0.6;
 }
@@ -166,7 +166,7 @@ p {
 .mac-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 125px;
+  top: 170px;
   right: 10px;
   opacity: 0.6;
 }
@@ -174,7 +174,7 @@ p {
 .iPad-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 175px;
+  top: 225px;
   right: 10px;
   opacity: 0.6;
 }
@@ -186,7 +186,7 @@ p {
 .iPhone-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 225px;
+  top: 275px;
   right: 10px;
   opacity: 0.6;
 }
@@ -198,7 +198,7 @@ p {
 .watch-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 275px;
+  top: 330px;
   right: 10px;
   opacity: 0.6;
 }
@@ -210,7 +210,7 @@ p {
 .vision-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 330px;
+  top: 375px;
   right: 10px;
   opacity: 0.6;
 }
@@ -222,7 +222,7 @@ p {
 .AirPods-humburger-menu-right-arrow {
   width: 20px;
   position: absolute;
-  top: 385px;
+  top: 430px;
   right: 10px;
   opacity: 0.6;
 }
