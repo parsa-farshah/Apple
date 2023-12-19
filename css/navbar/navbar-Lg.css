@@ -13,6 +13,7 @@
 
 /* navbar and content */
 div.nav-container {
+  overflow-x: hidden;
   width: 100vw;
   height: 44px;
   background-color: hsl(240deg 1.45% 27.06%);
